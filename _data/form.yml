@@ -1,0 +1,13 @@
+- id: competition
+  post-url: "https://getform.io/f/e277d689-e6e5-4621-8b92-d97558d78b99"
+  fields:
+    - id: email
+      type: email
+      label: Email
+      required: true
+    - id: newsletter-optin
+      type: checkbox
+      options:
+        - id: opt-in
+          label: I would like to receive news, special offers and promotions from Secret Escapes Limited by email.
+  submit: Enter now

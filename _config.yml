@@ -1,0 +1,24 @@
+# Site settings
+title: Downton Abbey Experience
+client:
+  name: Downton Abbey
+  link: "#client-name"
+core-se-link: https://www.secretescapes.com/current-sales
+description: >
+  To celebrate the release of Downton Abbey, we’re offering our members the chance to win the ultimate Grand Country House Escape – a spectacular stay at Highclere Castle.
+
+# file paths
+url:     "http://mp.secretescapes.com" # the base hostname & protocol for your site
+baseurl: "/downtonabbeywin" # the subpath of your site, e.g. /blog/
+img:     "/downtonabbeywin/_assets/img"
+css:     "/downtonabbeywin/_assets/css"
+js:      "/downtonabbeywin/_assets/js"
+
+
+# Build settings
+markdown: kramdown
+exclude: [node_modules, gulpfile.js, package.json, package-lock.json, js/script.js]
+keep_files: [_assets]
+sass:
+    sass_dir: css
+    style: compressed

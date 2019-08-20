@@ -1,0 +1,32 @@
+---
+layout: subpage
+id: thankyou
+title: Thank you
+
+banner:
+  title: Thank you for entering
+
+intro: >
+  <p class="text--xxl">You’ve successfully entered our spectacular Downton Abbey competition. The lucky winners will be contacted directly. Good luck!</p>
+
+---
+
+
+<div class="site-header__offset"></div>
+<div class="bg--navy-texture vpad--xl">
+  <div class="container container--xl container--no-padding bg--beige text--center text--black">
+    <div class="boxpad--lg">
+      <div class="em-box">
+        <div class="width width--lg boxpad--lg">
+
+          <h1 class="title title--lg">{{page.banner.title}}</h1>
+          <p class="text--xxl">{{page.intro}}</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% include page/offers-section.html %}
+

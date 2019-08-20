@@ -1,0 +1,32 @@
+// general styles for the project that wouldn't be a reuseable component
+
+
+.intro-section {
+  @include bp($xxl){
+    margin-top: -$s6;
+    z-index: 1;
+    position: relative;
+  }
+}
+
+.em-box {
+  position: relative;
+  padding: $s4;
+  border: 1px solid $gold;
+  &:after {
+    content: "";
+    pointer-events: none;
+    display: block;
+    position: absolute;
+    top: -3px; bottom: -3px;
+    left: 1px; right: 1px;
+    border: 1px solid $gold;
+  }
+}
+
+.gallery {
+  background-color: $beige;
+  @include bp($xxl){
+    background-color: transparent;
+  }
+}

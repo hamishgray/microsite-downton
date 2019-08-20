@@ -1,0 +1,69 @@
+---
+layout: default
+id: overview
+nav: true
+nav-order: 1
+title: Overview
+
+
+intro: >
+  <p class="text--xxxl text--display">This autumn, you’re cordially invited to the movie event of the year. The Crawleys are back – and you could win a one-of-a-kind Downton Abbey experience.</p>
+  <p class="text--xl">To celebrate the release of Downton Abbey at cinemas, we’re offering you the chance to win the ultimate grand country house escape – a spectacular stay at Hartwell House in the beautiful Buckinghamshire countryside.</p>
+  <p class="text--xl">You and a friend will enjoy a luxury three-night stay, two lavish three-course dinners and a champagne afternoon tea. During your stay, you’ll be taken on a guided tour of the film’s locations – the perfect prelude to your private screening of Downton Abbey for you and up to 19 guests.</p>
+  <p class="text--xl">Runners-up prizes include an elegant Spode afternoon tea set, and for 3rd place, we're giving away five editions of The Complete Collection DVD Box Set and Official Downton Abbey Cookbook to create the perfect Downton night in! Click <a href="javascript:void(0);" data-modal-item="terms" class="js-open-modal link">here</a> for full prize details.</p>
+  <p class="text--xl">There’s no finer way to experience life as lord or lady of the manor, so don’t dally – enter now!</p>
+
+---
+
+
+<div class="container container--no-padding text--black intro-section">
+
+  <div class="bg--beige width width--xxl text--center">
+    <div class="boxpad--xxl">
+      {{page.intro}}
+    </div>
+  </div>
+
+  <div class="container container--no-padding gallery">
+    <img src="{{site.img}}/content/gallery.png" alt="" class="">
+  </div>
+
+  <div class="width width--xxl bg--beige text--black">
+    <div id="enter"></div>
+    <div class="boxpad--xxl">
+      <div class="em-box">
+        <h2 class="title title--xs title--display text--center">For your chance to win, simply enter your email address here:</h2>
+        <div class="width width--lg">
+          <div class="space--sm"></div>
+          {% include page/competition-form.html %}
+          <div class="space--sm"></div>
+          <p class="text--sm">Click <a href="javascript:void(0);" data-modal-item="terms" class="js-open-modal link">here</a> to view full competition terms and conditions. For full details please see our <a href="https://www.secretescapes.com/privacy-policy">Privacy&nbsp;and&nbsp;Cookies&nbsp;Policy</a>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="vpad--xl">
+    <div class="container container--xxl">
+      <div class="row row--valign-center text--white">
+        <div class="col col--4">
+        <div class="title title--xl">Watch the trailer</div>
+        </div>
+        <div class="col col--8">
+          <div class="bg-img bg-img--16-9 bg-img--rounded" style="background-image: url('{{site.img}}/content/video.jpg');">
+            <a href="javascript:void(0);" data-modal-item="trailer" class="js-open-modal bg-img__link"></a>
+            <div class="bg-img__content">
+              <div class="bg-img__play"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+{% include page/offers-section.html %}
+
+{% include page/promo-offers.html %}

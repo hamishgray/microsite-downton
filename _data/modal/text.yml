@@ -1,0 +1,13 @@
+
+
+- type: text
+  id: terms
+  title: Terms and Conditions
+  content: >
+    <p>Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+  pages:
+    - id: overview
+
+
+
+
