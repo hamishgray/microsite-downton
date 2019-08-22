@@ -1,20 +1,21 @@
 
-- title: Country Living Lansdown Grove
-  location: Bath, Somerset
-  description: A plush Bath retreat near the city's heart
-  price: 110
-  price-description: per room per night
-  saved: 54
-  expires: 2019/08/27
-  image: https://d2g6qre7voj6kv.cloudfront.net/sales/99890/76610ced_ea11_4c07_b0e8_c2551e41c29d.jpg?auto=format,compress
-  link: https://www.secretescapes.com/current-sales
 
-- title: Glewstone Court Country House
-  location: Ross-on-Wye, Herefordshire
-  description: An award-winning country house in the beautiful Wye Valley
-  price: 139
+- title: Pennyhill Park
+  location: Bagshot, Surrey
+  description: Five-star spa hotel in a prestigious Surrey location.
+  price: 219
+  price-description: per suite per night
+  saved: 27
+  expires: 2019/07/03
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/99947/a14985a1_839f_4429_b6d9_93879e29ea1d.jpg?auto=format,compress
+  link: https://www.secretescapes.com/grand-country-house-escapes/filter
+
+- title: Appleby Manor Hotel & Garden Spa
+  location: Appleby-in-Westmorland
+  description: Lake District views, Rosette dining and a spa.
+  price: 99
   price-description: per room per night
   saved: 35
-  expires: 2019/08/29
-  image: https://d2g6qre7voj6kv.cloudfront.net/sales/100046/83543c6d_282f_45cf_9d27_323046923db3.jpg?auto=format,compress
-  link: https://www.secretescapes.com/current-sales
+  expires: 2019/07/27
+  image: https://d2g6qre7voj6kv.cloudfront.net/sales/49086/6aef07c6_715c_40c2_81b4_91bfb194f528.jpg?auto=format,compress
+  link: https://www.secretescapes.com/grand-country-house-escapes/filter
