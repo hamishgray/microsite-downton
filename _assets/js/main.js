@@ -18,5 +18,9 @@ $(document).ready(function(){
 
   $('.js-affiliate-field').val( queryString('affiliate') );
   $('.js-saff-field').val( queryString('saff') );
+  $('.js-utm-medium-field').val( queryString('utm_medium') );
+  $('.js-utm-source-field').val( queryString('utm_source') );
+  $('.js-utm-content-field').val( queryString('utm_content') );
+  $('.js-utm-campaign-field').val( queryString('utm_campaign') );
 
 });
